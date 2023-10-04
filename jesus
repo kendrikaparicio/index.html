@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscar resultados del Inter de Miami</title>
+  <link rel="stylesheet" href="miestilo.css">
+</head>
+<body>
+  <h1>Buscar resultados del Inter de Miami</h1>
+
+  <form action="index.php" method="post">
+    <label for="fecha">Fecha:</label>
+    <input type="date" name="fecha" id="fecha" />
+    <br />
+    <input type="submit" value="Buscar" />
+  </form>
+
+  <div id="resultados"></div>
+
+  <script src="123.js"></script>
+</body>
+</html>
